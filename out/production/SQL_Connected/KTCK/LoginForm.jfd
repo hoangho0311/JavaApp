@@ -1,0 +1,104 @@
+JFDML JFormDesigner: "7.0.5.1.409" Java: "11.0.13" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"iconImage": new com.jformdesigner.model.SwingIcon( 0, "/MN2/img/2037099 (1).png" )
+			"title": "INTETNET "
+			"resizable": false
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "logo"
+				"background": new java.awt.Color( 255, 102, 102, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/MN2/img/2037099 (1).png" )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 35
+					"y": 50
+					"width": 255
+					"height": 275
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"height": 430
+				"width": 340
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "login"
+				"background": &ColorUIResource0 new javax.swing.plaf.ColorUIResource( 238, 238, 238 )
+				add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+					name: "user"
+					"text": "USERNAME"
+					"font": new java.awt.Font( "Segoe UI", 0, 16 )
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 55
+					"y": 125
+					"width": 280
+					"height": 45
+				} )
+				add( new FormComponent( "javax.swing.JPasswordField" ) {
+					name: "pass"
+					"text": "PASSWORD"
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+					"font": new java.awt.Font( "Segoe UI", 0, 12 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 55
+					"y": 190
+					"width": 280
+					"height": 45
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "dangnhap"
+					"text": "LOGIN"
+					"background": #ColorUIResource0
+					"foreground": new java.awt.Color( 0, 0, 0, 255 )
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 4, false )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "dangnhap", true ) )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "dangnhap", true ) )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "dangnhap", true ) )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "dangnhap", true ) )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "dangnhap", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 55
+					"y": 275
+					"width": 115
+					"height": 40
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "dangky"
+					"text": "CANCEL"
+					"background": #ColorUIResource0
+					"foreground": new java.awt.Color( 0, 0, 0, 255 )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "EXIT", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 210
+					"y": 275
+					"width": 105
+					"height": 40
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "LOGIN"
+					"font": new java.awt.Font( "Segoe UI", 0, 28 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 60
+					"y": 45
+					"width": 160
+					"height": 65
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 340
+				"y": 0
+				"width": 430
+				"height": 430
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 770, 460 )
+		} )
+	}
+}

@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="MigLayout">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/miglayout-swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/miglayout-core.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/miglayout-swing-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/miglayout-core-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/miglayout-swing-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/miglayout-core-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jfreechart-1.0.19.zip!/jfreechart-1.0.19/experimental" />
+      <root url="jar://$USER_HOME$/Downloads/jfreechart-1.0.19.zip!/jfreechart-1.0.19/source" />
+      <root url="jar://$USER_HOME$/Downloads/jfreechart-1.0.19.zip!/jfreechart-1.0.19/swt" />
+      <root url="jar://$USER_HOME$/Downloads/jfreechart-1.0.19.zip!/jfreechart-1.0.19/tests" />
+    </SOURCES>
+  </library>
+</component>
